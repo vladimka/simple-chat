@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.message-form{
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+}
+
+.messages{
+    list-style: none;
+}
+
+.message{
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.nick-enter-modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.nick-enter-form{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.nick-enter-form>*{
+    margin: 5px;
+}
